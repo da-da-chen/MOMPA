@@ -17,7 +17,7 @@ function Population= EnvironmentalSelection(FUN,Population,N,M,Z,Zmin)
     %% Non-dominated sorting
     [Population_objs,~ ]= mompa_getMOFcn(FUN, Population, M);
     [FrontNo,MaxFNo] = NDSort(Population_objs,N);
-    Next = FrontNo < MaxFNo;%进入下一代
+    Next = FrontNo < MaxFNo;
     %% Select the solutions in the last front
     Last   = find(FrontNo==MaxFNo);%==最后一层的下标
     Choose = LastSelection(Population_objs(Next,:),Population_objs(Last,:),N-sum(Next),Z,Zmin);%基于参考点后最后一层选择k个 逻辑值0、1
