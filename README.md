@@ -7,13 +7,11 @@ Author: Long Chen.
 # Cite
 Please cite our paper if you use this code in your own work:
 ```
-@article{2021MOMPA,
-  title={MOMPA: Multi-objective marine predator algorithm},
-  author={ Zhong, K.  and  Zhou, G.  and  Deng, W.  and  Zhou, Y.  and  Luo, Q. },
-  journal={Computer Methods in Applied Mechanics and Engineering},
-  volume={385},
-  number={1},
-  pages={114029},
-  year={2021},
+@inproceedings{chen2021mompa,
+  title={MOMPA: a high performance multi-objective optimizer based on marine predator algorithm},
+  author={Chen, Long and Cai, Xuebing and Jin, Kezhong and Tang, Zhenzhou},
+  booktitle={Proceedings of the genetic and evolutionary computation conference companion},
+  pages={177--178},
+  year={2021}
 }
 ```
