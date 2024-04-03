@@ -5,7 +5,7 @@ Developed by Innovation Research Center for Intelligent Networking at Wenzhou Un
 Author: Long Chen.
 
 # Cite
-Please cite our paper if you use this code in your own work:
+If you find our work useful, please cite it in your publications or projects.
 ```
 @inproceedings{chen2021mompa,
   title={MOMPA: a high performance multi-objective optimizer based on marine predator algorithm},
